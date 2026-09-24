@@ -53,6 +53,7 @@ fzf_popup_cmd() {
     --ansi \
     --bind="$2" \
     --delimiter=":" \
+    --no-sort \
     --layout="$3" \
     --no-multi \
     --print-query \
